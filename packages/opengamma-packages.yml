@@ -1,0 +1,108 @@
+generated: '2026-07-20'
+method: searched
+source: https://search.maven.org/solrsearch/select?q=g:com.opengamma.strata
+description: >-
+  First-party OpenGamma client libraries. OpenGamma's public developer surface is
+  Strata, its award-winning open-source analytics and market-risk library for
+  derivatives and OTC/ETD pricing (Apache 2.0). Strata is published to Maven
+  Central under the group com.opengamma.strata as a set of Java modules and is the
+  core of OpenGamma's SaaS Analytics platform. Verified against Maven Central
+  (search.maven.org solrsearch) and github.com/OpenGamma/Strata. There is no npm,
+  PyPI, or other language-registry package — Strata is Java-only.
+packages:
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-measure
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-measure
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-measure:2.12.73'"
+    official: true
+    description: High-level measures API — the recommended entry point for calculating risk measures.
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-pricer
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-pricer
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-pricer:2.12.73'"
+    official: true
+    description: Financial instrument pricing and risk (present value, sensitivities).
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-calc
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-calc
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-calc:2.12.73'"
+    official: true
+    description: Multi-scenario calculation engine.
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-product
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-product
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-product:2.12.73'"
+    official: true
+    description: Domain model for financial products / trades.
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-market
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-market
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-market:2.12.73'"
+    official: true
+    description: Market data model (curves, surfaces, quotes).
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-data
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-data
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-data:2.12.73'"
+    official: true
+    description: Market data management abstractions.
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-loader
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-loader
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-loader:2.12.73'"
+    official: true
+    description: Loaders for standard data formats (FpML, CSV, etc.).
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-report
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-report
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-report:2.12.73'"
+    official: true
+    description: Trade and cashflow reporting framework.
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-basics
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-basics
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-basics:2.12.73'"
+    official: true
+    description: Basic financial concepts (currencies, day counts, holidays, indices).
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-collect
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-collect
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-collect:2.12.73'"
+    official: true
+    description: Low-level collections and utilities.
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-math
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-math
+    source: https://github.com/OpenGamma/Strata
+    install: "implementation 'com.opengamma.strata:strata-math:2.12.73'"
+    official: true
+    description: Mathematical building blocks (interpolation, matrix algebra, solvers).
+  - language: java
+    registry: maven
+    name: com.opengamma.strata:strata-parent
+    url: https://central.sonatype.com/artifact/com.opengamma.strata/strata-parent
+    source: https://github.com/OpenGamma/Strata
+    install: "<parent><groupId>com.opengamma.strata</groupId><artifactId>strata-parent</artifactId></parent>"
+    official: true
+    description: Maven parent POM aggregating the Strata modules.

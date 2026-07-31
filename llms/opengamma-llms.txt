@@ -1,0 +1,37 @@
+# OpenGamma
+
+> OpenGamma is a derivatives and margin analytics company whose technology helps trading, risk, treasury and operations teams forecast, stress test, simulate and reduce the collateral and margin costs of trading derivatives. Its public developer surface is Strata — the open-source (Apache 2.0) analytics and market-risk library that also powers OpenGamma's SaaS Analytics platform. OpenGamma is backed by Accel and was acquired by Trading Technologies.
+
+## About
+- OpenGamma is not a REST-API provider; its developer offering is a Java library (Strata) distributed via Maven Central and a bundled command-line tool.
+- Platform capabilities (SaaS): Forecast, Stress Test, Simulate, Reduce, Allocate, Process, Explain, Validate, Comply — for margin and collateral optimization across cleared and bilateral derivatives.
+
+## Developer resources
+- Website: https://opengamma.com
+- Strata documentation: https://strata.opengamma.io/
+- Getting started (obtaining Strata): https://strata.opengamma.io/obtaining_strata/
+- Command-line tool: https://strata.opengamma.io/command_line_tool/
+- Code examples: https://strata.opengamma.io/code_examples/
+- API reference (Javadoc): https://strata.opengamma.io/apidocs/
+- Community / forum: https://strata.opengamma.io/community/
+- GitHub organization: https://github.com/OpenGamma
+- Strata source: https://github.com/OpenGamma/Strata
+- Releases / changelog: https://github.com/OpenGamma/Strata/releases
+- License: Apache-2.0
+
+## Packages (Maven Central — group com.opengamma.strata)
+- strata-measure — high-level risk-measure API (recommended entry point)
+- strata-pricer — instrument pricing and risk sensitivities
+- strata-calc — multi-scenario calculation engine
+- strata-product — financial product / trade domain model
+- strata-market — market data model (curves, surfaces, quotes)
+- strata-loader — loaders for FpML/CSV and standard formats
+- strata-basics — currencies, day counts, holidays, indices
+- strata-collect / strata-math — utilities and math building blocks
+
+## API Evangelist artifacts
+- Packages: packages/opengamma-packages.yml
+- CLI: cli/opengamma-cli.yml
+- Lifecycle: lifecycle/opengamma-lifecycle.yml
+- Changelog: changelog/opengamma-changelog.yml
+- Domain security: security/opengamma-domain-security.yml

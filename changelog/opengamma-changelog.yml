@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/OpenGamma/Strata/releases
+description: >-
+  OpenGamma publishes a dated release history for its open-source Strata library
+  as GitHub Releases, each corresponding to a Maven Central artifact version. This
+  artifact records the versioning scheme and the current release; the live GitHub
+  Releases page is the authoritative, complete changelog (patch releases ship
+  frequently within a minor line, so only the current window is captured here).
+docs: https://github.com/OpenGamma/Strata/releases
+versioning:
+  scheme: semver-style (MAJOR.MINOR.PATCH)
+  current: 2.12.73
+  detail: lifecycle/opengamma-lifecycle.yml
+entries:
+  - version: '2.12.73'
+    date: '2026-07-02'
+    latest: true
+    highlights:
+      - Patch release in the 2.12.x line (see GitHub Releases for the itemized notes).
+  - version: '2.12.56'
+    highlights:
+      - Prior 2.12.x patch release published to Maven Central.
+notes: >-
+  Per-release itemized notes are not transcribed here to avoid drift; consult
+  https://github.com/OpenGamma/Strata/releases for the exact changelog of each tag.

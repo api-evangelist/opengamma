@@ -1,0 +1,42 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  https://github.com/OpenGamma/Strata, https://github.com/OpenGamma/Strata/releases,
+  https://strata.opengamma.io/licenses/
+description: >-
+  Lifecycle posture for OpenGamma's public developer surface, the Strata
+  open-source analytics library. Strata is versioned as a released Java library on
+  Maven Central (not a hosted, dated web API), so its lifecycle is expressed
+  through library releases, semantic-style version tags, and the Apache 2.0
+  license rather than through API version headers, Sunset/Deprecation HTTP
+  headers, or a public status page.
+versioning:
+  scheme: semver-style (MAJOR.MINOR.PATCH)
+  current: 2.12.73
+  current_released: '2026-07-02'
+  mechanism: Maven Central artifact version (com.opengamma.strata:*)
+  releases: https://github.com/OpenGamma/Strata/releases
+  docs: https://strata.opengamma.io/
+  notes: >-
+    Frequent patch releases within the 2.12.x line; a new MAJOR/MINOR line is cut
+    for larger feature or breaking changes. Consumers pin the version in their
+    Maven/Gradle build; older versions remain available on Maven Central.
+deprecation:
+  policy_url: null
+  changelog: https://github.com/OpenGamma/Strata/releases
+  sunset_header: false
+  notes: >-
+    No formal published deprecation policy or RFC 8594 Sunset/Deprecation header
+    support (Strata is a library, not an HTTP API). Deprecations are handled via
+    Java @Deprecated annotations and noted in release notes.
+sla:
+  url: null
+  public_uptime_target: null
+  notes: >-
+    No public uptime SLA. Strata is a client-side library; the OpenGamma SaaS
+    Analytics platform (built on Strata) is a commercial hosted service governed
+    by enterprise agreements.
+status_page: null
+license: Apache-2.0
+license_url: https://github.com/OpenGamma/Strata
+maven_central: https://central.sonatype.com/namespace/com.opengamma.strata

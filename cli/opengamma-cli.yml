@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://strata.opengamma.io/command_line_tool/
+description: >-
+  Strata ships a first-party command-line tool that runs the analytics library
+  without writing Java code. It reads market data and portfolios from standard
+  files (CSV/FpML) and calculates a set of risk measures, writing results to a
+  report file. It is distributed inside the Strata distribution download and
+  invoked via the bundled runner. This artifact captures the CLI's command
+  surface; the Strata library modules themselves are catalogued in
+  packages/opengamma-packages.yml.
+docs: https://strata.opengamma.io/command_line_tool/
+repo: https://github.com/OpenGamma/Strata
+install:
+  download: https://github.com/OpenGamma/Strata/releases (download the strata-report distribution and run the bundled tool)
+  requirement: Java SE 8u40 or later
+commands:
+  invocation:
+    - {name: strata-report-tool, description: "Main entry point — runs a calculation from input files and emits a report."}
+  key_options:
+    - {name: "-p / --portfolio", description: Path to the input portfolio / trades file.}
+    - {name: "-t / --template", description: Report template controlling which measures and columns are produced.}
+    - {name: "-m / --marketdata", description: Directory of market data (curves, quotes, fixings) to price against.}
+    - {name: "-d / --date", description: Valuation date for the calculation.}
+    - {name: "-f / --format", description: Output format for the generated report (e.g. CSV / ASCII table).}
+    - {name: "-i / --id", description: Restrict the run to a specific trade or calculation id.}
+notes: >-
+  The command-line tool exercises the same strata-measure / strata-calc engine as
+  the library and SaaS platform; it is intended for evaluation, batch reporting,
+  and reproducing calculations without embedding Strata in an application.

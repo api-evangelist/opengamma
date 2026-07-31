@@ -1,7 +1,30 @@
 aid: opengamma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opengamma.png
 name: OpenGamma
-description: 'OpenGamma is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  OpenGamma is a derivatives and margin analytics company whose technology helps
+  trading, risk, treasury and operations teams forecast, stress test, simulate and
+  reduce the collateral and margin costs of trading cleared and bilateral
+  derivatives. Its capabilities span Forecast, Stress Test, Simulate, Reduce,
+  Allocate, Process, Explain, Validate and Comply. OpenGamma's public developer
+  surface is Strata, its award-winning open-source (Apache 2.0) analytics and
+  market-risk library for pricing and risk of OTC and exchange-traded derivatives,
+  which also powers OpenGamma's commercial SaaS Analytics platform. Strata is a
+  Java library published to Maven Central under com.opengamma.strata, with a
+  bundled command-line tool, Javadoc reference and community forum; OpenGamma does
+  not expose a public REST API. OpenGamma is backed by Accel and was acquired by
+  Trading Technologies.
 url: https://raw.githubusercontent.com/api-evangelist/opengamma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Derivatives
+- Risk Management
+- Analytics
+- Margin
+- Collateral
+- Open Source
+- Java
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,34 @@ maintainers:
 common:
 - type: Website
   url: http://www.opengamma.com
+- type: Documentation
+  url: https://strata.opengamma.io/
+- type: GettingStarted
+  url: https://strata.opengamma.io/obtaining_strata/
+- type: APIReference
+  url: https://strata.opengamma.io/apidocs/
+- type: Support
+  url: https://strata.opengamma.io/community/
+- type: GitHubOrganization
+  url: https://github.com/OpenGamma
+- type: SourceCode
+  url: https://github.com/OpenGamma/Strata
+- type: Packages
+  url: packages/opengamma-packages.yml
+- type: SDKs
+  url: packages/opengamma-packages.yml
+- type: CLI
+  url: cli/opengamma-cli.yml
+- type: Lifecycle
+  url: lifecycle/opengamma-lifecycle.yml
+- type: ChangeLog
+  url: changelog/opengamma-changelog.yml
+- type: LLMsTxt
+  url: llms/opengamma-llms.txt
+- type: DomainSecurity
+  url: security/opengamma-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

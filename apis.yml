@@ -1,4 +1,16 @@
 aid: opengamma
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -62,6 +74,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/OpenGamma/Strata/issues
+- type: Releases
+  url: https://github.com/OpenGamma/Strata/releases
+- type: SecurityPolicy
+  url: https://github.com/OpenGamma/Strata/blob/main/SECURITY.md
+- type: ContributionGuide
+  url: https://github.com/OpenGamma/Strata/blob/main/.github/contributing.md
 - type: License
   name: Apache-2.0
   url: https://github.com/OpenGamma/Strata/blob/main/LICENSE
